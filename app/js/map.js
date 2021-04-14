@@ -5,22 +5,9 @@ require(["esri/Map", "esri/layers/GeoJSONLayer", "esri/views/MapView"], function
   ) {
     // If GeoJSON files are not on the same domain as your website, a CORS enabled server
     // or a proxy is required.
-    const url = "Export_geometry.geojson";
+    const url = "https://github.com/1607albert/georepo/blob/4cbba6f11ba5737300703e77554ee5b29f5c9ef9/Export_geometry.geojson";
 
-    // Paste the url into a browser's address bar to download and view the attributes
-    // in the GeoJSON file. These attributes include:
-    // * mag - magnitude
-    // * type - earthquake or other event such as nuclear test
-    // * place - location of the event
-    // * time - the time of the event
-    // Use the Arcade Date() function to format time field into a human-readable format
-
-       
-
-    // const geojsonLayer = new GeoJSONLayer({
-    //   url: url,
-    //   copyright: "USGS Earthquakes",
-    //   popupTemplate: template,
+  
      
     // });
     const geojsonLayer = new GeoJSONLayer({
@@ -35,8 +22,8 @@ require(["esri/Map", "esri/layers/GeoJSONLayer", "esri/views/MapView"], function
 
       const view = new MapView({
         container: "viewDiv",
-        center: [-168, 46],
-        zoom: 2,
+        center: [16, 46],
+        zoom: 3,
         map: map
       });
   });
