@@ -5,7 +5,7 @@ require(["esri/Map", "esri/layers/GeoJSONLayer", "esri/views/MapView"], function
   ) {
     // If GeoJSON files are not on the same domain as your website, a CORS enabled server
     // or a proxy is required.
-    const url = "https://github.com/1607albert/georepo.guithub.io/blob/867d710088cf97869c34f0aa4301d6e9b05e6ad8/geometry.geojson";
+    const url = "geometry.geojson";
 
   
      
