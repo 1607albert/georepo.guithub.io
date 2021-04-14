@@ -11,7 +11,7 @@ require(["esri/Map", "esri/layers/GeoJSONLayer", "esri/views/MapView"], function
      
     // });
     const geojsonLayer = new GeoJSONLayer({
-        url: url;
+        url: url
          
       });
 
